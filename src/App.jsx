@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
+    <div className="bg-amber-50 min-h-screen px-6 py-3 flex flex-col gap-16">
       <Header />
       <Body />
       <Footer />
