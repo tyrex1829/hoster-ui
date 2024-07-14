@@ -2,30 +2,30 @@ import React from "react";
 
 const Body = () => {
   return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-center">
+    <div className="space-y-4 lg:flex">
+      <div className="flex items-center justify-center lg:flex-1 lg:h-[400px] lg:order-2 lg:justify-end">
         <img
-          className="-rotate-[45deg] h-64 md:h-72"
+          className="-rotate-[45deg] h-64 md:h-72 lg:h-[400px]"
           src="./public/assets/Blue-Shape.svg"
           alt="1st"
         />
         <img
-          className="absolute -rotate-[30deg] h-64 md:h-72"
+          className="absolute -rotate-[30deg] h-64 md:h-72 lg:h-[400px]"
           src="./public/assets/Pink-Shape.svg"
           alt="2nd"
         />
         <img
-          className="absolute -rotate-[15deg] h-64 md:h-72"
+          className="absolute -rotate-[15deg] h-64 md:h-72 lg:h-[400px]"
           src="./public/assets/Purple-Shape.svg"
           alt="3rd"
         />
         <img
-          className="absolute h-64 md:h-72"
+          className="absolute h-64 md:h-72 lg:h-[400px]"
           src="./public/assets/Hero-Model.png"
           alt="4th"
         />
       </div>
-      <div className="">
+      <div className="lg:flex-1 lg:order-1">
         <h1 className="text-5xl font-bold font-playfair leading-tight">
           Host your website in less than 5 minutes.
         </h1>
